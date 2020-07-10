@@ -15,6 +15,8 @@ class TestToDo():
             command_executor=os.environ.get('SELENOID'),
             desired_capabilities=capabilities)
 
+        self.driver.get("http://todomvc.com/examples/react/#/")
+
     def teardown(self):
         self.driver.close()
         print("basic teardown into class")
