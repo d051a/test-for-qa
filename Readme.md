@@ -1,4 +1,4 @@
-# Тестовое задание для инженера по тестированию в BI.ZONE SOC  
+
 
 
 Имеется приложение ToDo: http://todomvc.com/examples/react/ 
